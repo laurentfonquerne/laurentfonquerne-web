@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 juil. 2017, 10:45:54
+    Author     : Administrateur
+*/
+h1 {
+  animation-duration: 5s;
+  animation-name: slidein;
+  
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 500%;
+  }
+  75% {
+  font-size: 500%;
+  margin-left: 25%;
+  width: 250%;
+}
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes php {
+  0% {
+    top: 115%;
+    opacity: 0;
+      }
+ 4%, 16% {
+    top: 15%;
+    opacity: 1;
+      }
+20%, 100% {
+    top: -115%;
+    opacity: 0;
+      }
+  
+}
+
+@keyframes java {
+  20% {
+    top: 115%;
+    opacity: 0;
+      }
+ 24%, 36% {
+    top: 15%;
+    opacity: 1;
+      }
+40%, 100% {
+    top: -115%;
+    opacity: 0;
+      }
+  
+}
+
+@keyframes android {
+  40% {
+    top: 115%;
+    opacity: 0;
+      }
+ 44%, 56% {
+    top: 15%;
+    opacity: 1;
+      }
+60%, 100% {
+    top: -115%;
+    opacity: 0;
+      }
+  
+}
+ 
+@keyframes js {
+  60% {
+    top: 115%;
+    opacity: 0;
+      }
+ 64%, 76% {
+    top: 15%;
+    opacity: 1;
+      }
+80%, 100% {
+    top: -115%;
+    opacity: 0;
+      }
+  
+}
+
+@keyframes html {
+  80% {
+    top: 115%;
+    opacity: 0;
+      }
+ 84%, 96% {
+    top: 15%;
+    opacity: 1;
+      }
+100%, 100% {
+    top: -115%;
+    opacity: 0;
+      }
+  
+}

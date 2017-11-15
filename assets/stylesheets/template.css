@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 juil. 2017, 11:41:46
+    Author     : Administrateur
+*/
+/* line 10, ../sass/template.scss */
+body {
+  position: absolute;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'lemonmilkregular';
+}
+
+/* line 17, ../sass/template.scss */
+body > header {
+  background-color: bisque;
+  height: 90%;
+}
+
+/* line 21, ../sass/template.scss */
+#about {
+  display: none;
+}
+#skills {
+  display: none;
+}
+#contact {
+  display: none;
+}
+/* line 24, ../sass/template.scss */
+#about:target {
+  display: block;
+}
+#skills:target {
+  display: block;
+}
+#contact:target {
+  display: block;
+}

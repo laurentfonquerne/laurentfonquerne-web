@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 juil. 2017, 10:45:35
+    Author     : Administrateur
+*/
+html, body, nav, header, section, footer, div, p, h1, h2 ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 5s linear;
+}
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+    box-sizing: border-box;
+}
+h2 {
+    text-align: center;
+    
+}
+ul {
+    list-style-type: none;
+}
+.row {
+    margin: 0 !important;
+     
+}
+.input-group span {
+    top: 0 !important;
+    /*height: 82px !important;*/
+    /*line-height: 0;*/
+}
+.input-group input {
+    /*height: 86px !important;*/
+}

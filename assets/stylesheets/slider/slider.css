@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 juil. 2017, 11:59:39
+    Author     : Administrateur
+*/
+/* line 10, ../../sass/slider/slider.scss */
+body > header {
+  z-index: 8;
+  position: relative;
+  background-image: url(./../images/background01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* line 19, ../../sass/slider/slider.scss */
+body > header > h1 {
+  position: absolute;
+  text-align: center;
+  bottom: 40%;
+}
+
+/* line 25, ../../sass/slider/slider.scss */
+body > header > p {
+  background: #ffffff;
+  position: absolute;
+  bottom: 30%;
+  text-align: center;
+  line-height: 2em;
+}
+
+/* line 32, ../../sass/slider/slider.scss */
+body > header > div {
+  position: absolute;
+  height: 30%;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* line 40, ../../sass/slider/slider.scss */
+body > header .php {
+  top: 115%;
+  animation-name: php;
+}
+
+/* line 46, ../../sass/slider/slider.scss */
+body > header .java {
+  top: 215%;
+  animation-name: java;
+}
+
+/* line 52, ../../sass/slider/slider.scss */
+body > header .android {
+  top: 315%;
+  animation-name: android;
+}
+
+/* line 58, ../../sass/slider/slider.scss */
+body > header .js {
+  top: 415%;
+  animation-name: js;
+}
+
+/* line 64, ../../sass/slider/slider.scss */
+body > header .html {
+  top: 515%;
+  animation-name: html;
+}
+
+/* line 69, ../../sass/slider/slider.scss */
+body > header .language {
+  height: 70%;
+  position: relative;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
